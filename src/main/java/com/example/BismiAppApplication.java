@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BismiAppApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(BismiAppApplication.class, args);
-		System.out.println("Test");
+		SpringApplication.run(BismiAppApplication.class, args);
 	}
 }
