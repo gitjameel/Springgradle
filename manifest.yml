@@ -1,0 +1,7 @@
+---
+applications:
+- name: SpringGradle
+  host: springgradle
+  domain: cfapps.io
+  path: /build/libs/springgradle.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
