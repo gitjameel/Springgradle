@@ -1,6 +1,7 @@
 ---
 applications:
 - name: SpringGradle
+  memory: 1024M
   host: springgradle
   domain: cfapps.io
   path: build/libs/springgradle.war
